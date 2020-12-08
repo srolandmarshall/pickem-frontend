@@ -1,0 +1,1 @@
+http://static.nfl.com/liveupdate/scores/scores.json
