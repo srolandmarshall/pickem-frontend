@@ -1,12 +1,11 @@
 import React from 'react'
-
+import ListTeam from '../components/ListTeams'
 const HomePage = () => {
   return (
     <div>
-      Home Page Div
+      <ListTeam />
     </div>
   )
 }
 
 export default HomePage
-Home Page Div
