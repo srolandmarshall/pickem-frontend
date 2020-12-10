@@ -1,9 +1,9 @@
 import React from 'react'
-import ListTeam from '../components/ListTeams'
+import ListGames from '../components/ListGames'
 const HomePage = () => {
   return (
     <div>
-      <ListTeam />
+      <ListGames />
     </div>
   )
 }

@@ -3,12 +3,8 @@ import useAxios from 'axios-hooks'
 
 import Team from './Team'
 
-const ListTeam = ({ Teams, deleteTeam }) => {
-  const [{data,loading,error}] = useAxios('/api/teams')
-  const teams = data
+const ListTeam = ({ teams }) => {
 
-  if (loading) return <h2>Loading...</h2>
-  if (error) return <h3>Something went wrong!</h3>
   return (
     <ul>
       {
