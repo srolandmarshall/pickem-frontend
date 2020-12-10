@@ -9,7 +9,7 @@ const ListGames = ( ) => {
   if (loading) return <h2>Loading...</h2>
   if (error) return <h3>Something went wrong!</h3>
   return (
-    <ul>
+<div>
       {
         games &&
           games.length > 0 ?
@@ -25,7 +25,7 @@ const ListGames = ( ) => {
               <li>No game(s) left</li>
             )
       }
-    </ul>
+</div>
   )
 }
 
