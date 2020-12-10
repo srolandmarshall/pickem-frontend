@@ -1,1 +1,2 @@
-http://static.nfl.com/liveupdate/scores/scores.json
+https://static.nfl.com/liveupdate/scores/scores.json
+https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
