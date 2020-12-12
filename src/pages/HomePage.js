@@ -1,11 +1,13 @@
-import React from 'react'
-import ListGames from '../components/ListGames'
-const HomePage = () => {
-  return (
-    <div>
-      <ListGames />
-    </div>
-  )
-}
+import React from "react";
+import { Row, Col, Container } from "shards-react";
 
-export default HomePage
+import ListGames from "../components/ListGames";
+const HomePage = () => {
+	return (
+		<Container>
+			<ListGames />
+		</Container>
+	);
+};
+
+export default HomePage;

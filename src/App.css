@@ -28,11 +28,17 @@
 	color: #61dafb;
 }
 
+.odds {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 700;
+	padding-top: 3%;
+}
+
 .gamecard {
 	border-width: 4px;
 	border-color: black;
-	width: 80%;
-	margin: auto;
+	margin: 10px;
 }
 
 .gamecard-title {
