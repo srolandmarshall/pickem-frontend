@@ -27,7 +27,7 @@
 			"react-app/jest"
 		]
 	},
-	"proxy": "https://33gzzwtrek.execute-api.us-east-2.amazonaws.com/latest",
+	"proxy": "https://33gzzwtrek.execute-api.us-east-2.amazonaws.com/latest/",
 	"browserslist": {
 		"production": [
 			">0.2%",
