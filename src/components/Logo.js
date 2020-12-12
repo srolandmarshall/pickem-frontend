@@ -72,9 +72,9 @@ const Logo = (props) => {
 	console.log(imgs);
 	const image = imgs.find((i) => i.code === team);
 	return image ? (
-		<img className="teamlogo" src={image.img} alt={team.code} />
+		<img className="teamlogo" src={image.img} alt={team} />
 	) : (
-		<img src="" alt="error!" />
+		<img src="" alt={team} />
 	);
 };
 
