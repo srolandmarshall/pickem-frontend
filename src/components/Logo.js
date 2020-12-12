@@ -66,6 +66,7 @@ const Logo = (team) => {
 		{ img: ten, code: "TEN" },
 		{ img: wsh, code: "WSH" },
 	];
+	console.log(imgs);
 	const image = imgs.find((i) => i.code === team);
 	return image ? image.img : "";
 };
