@@ -74,7 +74,7 @@ const Logo = (props) => {
 	return image ? (
 		<img className="teamlogo" src={image.img} alt={team} />
 	) : (
-		<img src="" alt={team} />
+		<img className="teamLogo" src="" alt={team} />
 	);
 };
 
