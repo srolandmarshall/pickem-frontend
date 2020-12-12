@@ -8,7 +8,6 @@ const UpcomingGame = (props) => {
 
 	useEffect(() => {
 		if (odds) {
-			console.log(odds);
 			setOverUnder(
 				odds.reduce((total, next) => total + next.overUnder, 0) / odds.length
 			);
