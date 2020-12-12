@@ -66,7 +66,8 @@ const Logo = (team) => {
 		{ img: ten, code: "TEN" },
 		{ img: wsh, code: "WSH" },
 	];
-	return imgs.find((i) => i.code === team).img || "";
+	const image = imgs.find((i) => i.code === team);
+	return image ? image.img : "";
 };
 
 export default Logo;
