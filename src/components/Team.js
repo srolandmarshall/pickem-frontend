@@ -6,7 +6,9 @@ import { Card, CardHeader, CardTitle, CardImg, CardBody } from "shards-react";
 
 const Team = (props) => {
 	const { abr } = props;
-	const [{ data, loading, error }] = useAxios(`/api/teams/by_abr/${abr}`);
+	const [{ data, loading, error }] = useAxios(
+		process.env.REACT_APP_API_URI + `/api/teams/by_abr/${abr}`
+	);
 	const team = data;
 	if (loading) return <span>Loading...</span>;
 	if (error) return <span>Something went wrong!</span>;
