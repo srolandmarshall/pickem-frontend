@@ -31,7 +31,10 @@ import tb from "../logos/TB.png";
 import ten from "../logos/TEN.png";
 import wsh from "../logos/WSH.png";
 
-const Logo = (team) => {
+import React from "react";
+
+const Logo = (props) => {
+	const { team } = props;
 	const imgs = [
 		{ img: ari, code: "ARI" },
 		{ img: atl, code: "ATL" },
@@ -68,7 +71,11 @@ const Logo = (team) => {
 	];
 	console.log(imgs);
 	const image = imgs.find((i) => i.code === team);
-	return image ? image.img : "";
+	return image ? (
+		<img className="teamlogo" src={image.img} alt={team.code} />
+	) : (
+		<img src="" alt="error!" />
+	);
 };
 
 export default Logo;

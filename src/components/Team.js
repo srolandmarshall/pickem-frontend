@@ -16,7 +16,7 @@ const Team = (props) => {
 				{team.city} {team.name}
 			</CardHeader>
 			<CardBody>
-				<CardImg className="teamlogo" src={Logo(team.abr)} />
+				<Logo team={team.abr} className="teamlogo" />
 			</CardBody>
 		</Card>
 	);
